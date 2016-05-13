@@ -55,6 +55,7 @@ Example URL: http://localhost/katapy-php-sdk/examples/galleries.php
 2) contents.php?cd=[GALLERY_CODE]
 This page uses the Katapy PHP API to load all videos from a given video gallery or playlist via the code identifier in the URL $_REQUEST["cd"].
 This identifier is provided to you in the galleries.php example. You can also checkout the gallery code in the Katapy Admin Console on the General Settings page for the gallery.
+
 Example URL: http://localhost/katapy-php-sdk/examples/contents.php?cd=nycuncovered
 
 
