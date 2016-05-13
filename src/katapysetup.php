@@ -13,19 +13,10 @@ $mcnkey = "katapy";
 /****** Always include KatapyConnect for **********/
 /****** any Katapy PHP API function. *********/
 require_once "katapyconnect.php";
-<<<<<<< HEAD
-=======
-require_once "katapyadminconnect.php";
->>>>>>> refs/heads/mbishop
 
 /****** KatapyConnect Config Parameters ***********/
 /****** setTestMode(true) echoes the JSON request URLs to Katapy *************/
 KatapyConnect::setTestMode(false);
-<<<<<<< HEAD
-=======
-KatapyAdminConnect::setTestMode(false);
-
->>>>>>> refs/heads/mbishop
 
 /****** Optional include(s) ******************/ 
 /****** katapyvod.php includes API functions for VOD Streaming ************/ 
@@ -43,12 +34,4 @@ include_once "katapycms.php";
 /****** katapygroup.php includes functions for Katapy MCN support ***/ 
 include_once "katapygroup.php";
 
-<<<<<<< HEAD
-
-=======
-/****** katapyaccount.php includes functions for Katapy account management ***/ 
-include_once "katapyaccount.php";
-
-include_once "katapymember.php";
->>>>>>> refs/heads/mbishop
 ?>
