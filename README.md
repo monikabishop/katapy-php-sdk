@@ -18,7 +18,7 @@ Download the source code and unzip it in your project.
 
 Configuration
 -------------
-Replace the {library} and {apikey} inside katapyphp/katapysetup.php with your Katapy library and API key which can be obtained from the Katapy support team.
+Replace the {library} and {apikey} inside src/katapysetup.php with your Katapy library and API key which can be obtained from the Katapy support team.
 ```php
 /****** Your Katapy API Key ******************/
 $apiKey = "123434234325565465456";
@@ -47,12 +47,14 @@ Examples
 The [examples] are a good place to start.
 
 1) galleries.php 
+
 This page uses the Katapy PHP API to load all video galleries and playlists from a given library.
 It does not require any URL parameters.
 
 Example URL: http://localhost/katapy-php-sdk/examples/galleries.php
 
 2) contents.php?cd=[GALLERY_CODE]
+
 This page uses the Katapy PHP API to load all videos from a given video gallery or playlist via the code identifier in the URL $_REQUEST["cd"].
 This identifier is provided to you in the galleries.php example. You can also checkout the gallery code in the Katapy Admin Console on the General Settings page for the gallery.
 
