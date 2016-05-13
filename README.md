@@ -49,20 +49,12 @@ The [examples] are a good place to start.
 1) galleries.php 
 This page uses the Katapy PHP API to load all video galleries and playlists from a given library.
 It does not require any URL parameters.
-<<<<<<< HEAD
+
 Example URL: http://localhost/katapy-php-sdk/examples/galleries.php
 
-2) examples/contents.php?cd=[GALLERY_CODE]
+2) contents.php?cd=[GALLERY_CODE]
 This page uses the Katapy PHP API to load all videos from a given video gallery or playlist via the code identifier in the URL $_REQUEST["cd"].
 This identifier is provided to you in the galleries.php example. You can also checkout the gallery code in the Katapy Admin Console on the General Settings page for the gallery.
-Example URL: http://localhost/katapy-php-sdk/examples/contents.php?cd=videos
-=======
-Example URL: http://localhost/KATAPYPHP/examples/galleries.php
+Example URL: http://localhost/katapy-php-sdk/examples/contents.php?cd=nycuncovered
 
-2) examples/contents.php?cd=[GALLERY_CODE]
-This page uses the Katapy PHP API to load all videos from a given video gallery or playlist via the
-code identifier in the URL $_REQUEST["cd"].
-This identifier is provided to you in the galleries.php example. You can also checkout the gallery code in the Katapy Admin Console on the General Settings page for the gallery.
-Example URL: http://localhost/KATAPYPHP/examples/contents.php?cd=videos
->>>>>>> refs/heads/mbishop
 

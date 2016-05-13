@@ -24,25 +24,17 @@ header('Content-Type: application/json');
 if (isset($_REQUEST["cd"])) {
 	$galleryCd = $_REQUEST["cd"];
 } else {
-<<<<<<< HEAD
-	$galleryCd = "nycuncovered";
-}
-=======
 	//if the request parameter is missing, use a default gallery code for this demo page
 	$galleryCd = "nycuncovered"; 
 }
 
->>>>>>> refs/heads/mbishop
 if (isset($_REQUEST["type"]) && $_REQUEST["type"]=="playlist") {
 	$contents = KatapyVod::getContentsFromPlaylist($galleryCd, $library);
 } else {
 	$contents = KatapyVod::getContentsFromGallery($galleryCd, $library);
 }
-<<<<<<< HEAD
-//uncomment the line below to see the results from Katapy
-=======
+
 //uncomment the line below to display the results from Katapy
->>>>>>> refs/heads/mbishop
 //echo json_encode($contents);
 
 //page context for feed links (for absolute URLs)
@@ -87,10 +79,6 @@ foreach ($contents as $rowcount => $c) {
 
 
 echo "]";
-<<<<<<< HEAD
-	?>	
-=======
-?>	
->>>>>>> refs/heads/mbishop
+?>
 
 

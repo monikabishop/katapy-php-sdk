@@ -61,6 +61,6 @@ foreach ($galleries as $rowcount => $g) {
 }
 
 echo "]";
-	?>	
+?>	
 
 
